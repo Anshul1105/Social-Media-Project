@@ -25,7 +25,7 @@ const Sidebar = ({ selectedTab,setSelectedTab }) => {
                     Create Post
                 </a>
             </li>
-            <li onClick={()=>{handleOnClick("My Followers")}}>
+            {/* <li onClick={()=>{handleOnClick("My Followers")}}>
                 <a href="#" className={`nav-link text-white ${selectedTab==='My Followers' && 'active'}`}>
                     <svg className="bi pe-none me-2" width="16" height="16"><use xlinkHref="#table"></use></svg>
                     My Followers
@@ -42,7 +42,7 @@ const Sidebar = ({ selectedTab,setSelectedTab }) => {
                     <svg className="bi pe-none me-2" width="16" height="16"><use xlinkHref="#people-circle"></use></svg>
                     My Account
                 </a>
-            </li>
+            </li> */}
         </ul>
         <hr />
         <div className="dropdown">
